@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ListernerDriver.ListernerClass" />
+	</listeners>
+	<test thread-count="2" name="Test">
+		<classes>
+			<class name="TestDrive.SigninTest1" />
+			<class name="TestDrive.SigninTest2" />
+			<class name="TestDrive.SignupTest1" />
+			<class name="TestDrive.HomePagetest1" />
+			<class name="TestDrive.MoviePageTest1" />
+			<class name="TestDrive.TVShowPageTest1" />
+			<class name="TestDrive.LiveTVPageTest1" />
+			<class name="TestDrive.MusicVideoPageTest1" />
+			<class name="TestDrive.ComedyPageTest1" />
+			<class name="TestDrive.SearchPageTest1" />
+			<class name="TestDrive.LanguageTest1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
